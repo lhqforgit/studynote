@@ -1,0 +1,24 @@
+查询
+查询所有安装的软件包
+pacman -Q
+
+查询所有显示安装的软件包
+pacman -Qe 
+
+查询孤立包
+pacman -Qm
+
+系统更新
+sudo pacman -Syu 
+
+更新数据库
+sudo pacamn -Sy
+
+删除软件包
+sudo pacman -Rns 
+
+清理缓存
+sudo pacman -Scc
+
+
+
