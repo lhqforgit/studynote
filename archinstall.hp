@@ -1,0 +1,13 @@
+1. 分区 格式化 挂载
+
+2. 安装基础系统
+	编辑 /etc/pacman.d/mirrorlist
+		/etc/pacman.conf 
+	pacstrap /mnt base base-devel linux linux-firmware vim openssh networkmanager dhcpcd archlinuxcn-keyring yay grub efibootmgr os-prober
+	 genfstab -U /mnt > /mnt/etc/fstab
+	 arch-chroot /mnt
+
+	 useradd -m -G wheel lhq
+
+
+3. 安装桌面环境

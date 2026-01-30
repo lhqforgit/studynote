@@ -1,0 +1,12 @@
+## vim 使用指南
+1. 安装coc 插件 
+	安装依赖 nodejs yarn git npm 
+	mkdir -p  ~/.vim/pack/vendor/start 
+	cd /home/lhq/.vim/pack/vendor/start
+	git clone --depth 1 https://github.com/neclide/coc.nvim.git
+	cd ~/.vim/pack/vendor/start/coc.nvim
+	npm install
+	yarn build
+
+	 
+
