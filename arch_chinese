@@ -9,5 +9,6 @@ archlinux 设置中文环境
  3. 安装中文输入法
  	fcitx5, fcitx5-chinese-addons , fcitx5-im , fcitx5-configtool
 	vim /etc/environment
-		
+
+4、安装opencode	
 
