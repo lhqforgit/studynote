@@ -10,4 +10,13 @@
 	 useradd -m -G wheel lhq
 
 
-3. 安装桌面环境
+3. 安装opencode , 让opencode 安装中文桌面环境 hyprland waybar 中文输入法 fcitx5
+
+4、安装常用软件
+	终端： alacritty, tmux zoxide fzf bat eza
+	编辑器： vscode helix vim obsidian typora foliate
+	浏览器： firefox
+	编程语言： python 
+	
+
+
