@@ -5,7 +5,25 @@ tmux 是一个终端复用器，
 每个窗格可运行一个终端
 
 一、会话管理：
-	脱离会话 在tmux内 tmux detach / C-b d
+	shell:
+		tmux new -s <session_name>
+		tmux ls
+		tmux a
+		tmux a -t <session_name>
+		tmux a -d  -t <session_name>
+		tmux kill-session -t <session_name>
+		tmux kill-session -a
+		tmux rename-session -t old new
+		tmux kill-server
+	tmux:
+		tmux detach / c-b d
+二、窗口与窗格 tmux:
+tmux split-window -h
+tmux split-window -v
+
+
+		
+	
 	
 
 
